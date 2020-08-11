@@ -1,5 +1,5 @@
 body {
-	background-image: repeating-radial-gradient(#AD9186,#74ADA6,#FFFAF7);}
+	background-image: repeating-radial-gradient(#AD9186,#74ADA6, black);}
 
 div#head {
 	  height: 200px;
@@ -8,7 +8,7 @@ div#head {
 	  margin-right: 50px;
 	  margin-left: 100px;
 	  background-color: #fae3d9;
-	  animation: rotate 1s linear 3s infinite normal;
+	  animation: rotate 3s linear 3s infinite normal;
 	}
 
  div#body {
@@ -19,7 +19,7 @@ div#head {
       border-left: 50px solid transparent;
       border-right: 50px solid transparent;
       border-bottom: 100px solid #D9FAF6;
-      animation: moveForward 1s linear 3s infinite normal;
+      animation: moveForward 3s linear 3s infinite normal;
     }
 @keyframes rotate {
   0% {transform: translate(50px, 0px) rotate(0deg) ;}
